@@ -1,0 +1,2 @@
+l'architecture 3 tiers consiste à créer une application basée sur trois niveaux: 
+niveau présentation (interface homme machine) <-> niveau application (traîtement & logique métier) <-> niveau base de données (persistance)

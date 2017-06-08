@@ -1,0 +1,1 @@
+l'algorithme md5 est une fonction de hashage permettant de crypter par exemple des mots de passe pour les rendre difficile à crypter 

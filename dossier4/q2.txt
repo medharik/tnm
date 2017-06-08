@@ -1,0 +1,9 @@
+create table eolienne (
+id_eolienne char(25) primary key,
+ref_type  varchar(15), 
+id_client int(5), 
+couleur varchar(15),
+date_achat date , 
+FOREIGN KEY (id_client) REFERENCES client(id_client),
+FOREIGN KEY (ref_type) REFERENCES type_eolienne(ref_type)
+)

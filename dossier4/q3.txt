@@ -1,0 +1,7 @@
+create table fournisseur (
+ref_fournisseur varchar(25) primary key,
+ville_fournisseur varchar(15), 
+tel_fournisseur varchar(115), 
+mail_fournisseur varchar(15), 
+site_web_fournisseur varchar(15)
+)

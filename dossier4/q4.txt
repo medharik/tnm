@@ -1,0 +1,1 @@
+FOREIGN KEY (ref_type) REFERENCES type_eolienne(ref_type)

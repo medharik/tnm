@@ -1,0 +1,26 @@
+﻿<div class="container">
+<?php 
+$connexion=new PDO("mysql:host=mysqlhost.eolienneserver.eu;dbname=EolienneBD","admin","pwd_admin");
+$sql="select type_eolienne.* , vends.prix 
+from type_eolienne , vends
+where type_eolienne.ref_type=vends_ref_type
+";
+$resultat=$sql->query($sql);
+while ($ligne=$resultat->fetch(PDO::ASSOC)) {
+	?>
+<div class="col-md-4">
+	<img src="photos/<?php echo $ligne['ref_type'] ?>.jpeg" class="img-responsive">
+<br>
+<p style="color: blue;"><?php echo $ligne['description']; ?></p>
+<p style="color: blue"><?php echo $ligne['puissance']; ?></p>
+<p>€<?php echo $ligne['prix']; ?></p>
+</div>
+
+
+	<?php
+}
+?>
+
+</div>
+
+

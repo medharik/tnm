@@ -1,0 +1,3 @@
+ce script fait en javascript permet de rechercher et afficher les suggestions des eoliennes en saisissant seulement le début du nom des eoliennes 
+en effet , ce script  utilise la technologie AJAX pour envoyer d'une maniere asynchrone (sans rafraichir la page ) ce qui est saisie  vers  le script coté serveur ( getnom_eolienne.php) qui va récuperer la  valeur de la variable debuttypeeolienne et rechercher  dans la base de données les informations des eoliennes ayant un nom qui commence par debuttypeeolienne pour les renvoyer et les afficher dans le span ayant id="suggesteolienne"
+

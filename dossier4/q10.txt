@@ -1,0 +1,4 @@
+il est préférable d'utiliser un framework comme boostrap car 
+il permet de gagner du temps  pour faire un code correcte
+en plus  un framework est une boite à outils réutilisables et conçu  par des experts dans le domaine  
+par exemple  , dans le cas de boostrap , elle permet de concevoir facilement   des sites web responsives , en utilisant  , entre autres , les classes offertes par ce framework 
